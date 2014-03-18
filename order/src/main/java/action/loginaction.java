@@ -59,35 +59,6 @@ public class loginaction extends ActionSupport {
 	}
 	
 	
-	
-
-	/*
-	
-	Map<String, String> message = new HashMap<String, String>();
-	public Map<String, String> getMessage() {
-		return message;
-	}
-
-	public void setMessage(Map<String, String> message) {
-		this.message = message;
-	}
-  */
-	/*
-	public String login() throws IOException {
-
-		if ("admin".equals(account) && "123456".equals(password)) {
-			message.put("message", "欢迎管理员登陆");
-
-		} else if ((!"admin".equals(account)) && "123456".equals(password)) {
-			message.put("message", "欢迎" + account + "登陆！");
-		} else {
-			message.put("message", "非法登陆信息！");
-		}
-		byte[] jsonBytes = message.toString().getBytes("utf-8");
-		return SUCCESS;
-	}
-	
-	*/
    private  String   userMsg;
 	
    public String getUserMsg() {
