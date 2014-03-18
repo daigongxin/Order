@@ -38,26 +38,6 @@ public class loginaction extends ActionSupport {
 		this.password = password;
 	}
 
-	HttpServletRequest request;
-
-	HttpServletResponse response;
-
-	public HttpServletRequest getRequest() {
-		return request;
-	}
-
-	public void setRequest(HttpServletRequest request) {
-		this.request = request;
-	}
-
-	public HttpServletResponse getResponse() {
-		return response;
-	}
-
-	public void setResponse(HttpServletResponse response) {
-		this.response = response;
-	}
-	
 	
    private  String   userMsg;
 	
